@@ -49,12 +49,35 @@
             margin-bottom: 10px;
         }
         /* Past research work styling */
-        .research-category {
+        .research-highlights h2 {
             margin-top: 30px;
-        }
-        .research-category h2 {
-            margin-top: 20px;
+            font-size: 1.8em;
             color: #333;
+        }
+        .research-highlights ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .research-highlights ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Research work section styling */
+        .research-work {
+            margin-top: 50px;
+        }
+        .research-work h2 {
+            font-size: 1.8em;
+            color: #333;
+        }
+        .research-category {
+            margin-top: 20px;
+        }
+        .research-category h3 {
+            font-size: 1.4em;
+            color: #555;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
         .past-research {
             background-color: #333;
@@ -72,9 +95,9 @@
             font-size: 0.9em;
             margin-bottom: 10px;
         }
-        .past-research h3 {
+        .past-research h4 {
             margin: 0;
-            font-size: 1.5em;
+            font-size: 1.2em;
             color: #fff;
         }
         .past-research .authors,
@@ -96,6 +119,7 @@
             font-size: 0.9em;
             margin-right: 10px;
         }
+    </style>
     </style>
 </head>
 <body>
@@ -122,6 +146,8 @@
     </p>
 <!--     <p>I completed my PhD at [Link to Institution], where I was advised by [Advisor’s name]. I also did postdoctoral work at [Institution] with [Advisor’s name].</p> -->    
     </div>
+
+    
     
     <div class="research-highlights">
         <h2>Research Interests</h2>
@@ -134,31 +160,35 @@
         </ul>
     </div>
 
-    <div class="research-category">
-        <h2>Multimodal Learning</h2>
-        <div class="past-research">
-            <h3>Audio Visual Agreement for Audio-Visual Question Answering</h3>
-            <div class="authors">Kyung Myung Ko</div>
-            <div class="year">Preprint, 2024</div>
-            <div class="buttons">
-                <a href="documents/AV_AG_preprint.pdf" target="_blank">PDF</a>
-                <a href="https://github.com/andyko208/AVAG-AVQA" target="_blank">CODE</a>
+    <!-- Research Work Section -->
+    <div class="research-work">
+        <h2>Research Work</h2>
+        <!-- Multimodal Learning Category -->
+        <div class="research-category">
+            <h2>Multimodal Learning</h2>
+            <div class="past-research">
+                <h3>Audio Visual Agreement for Audio-Visual Question Answering</h3>
+                <div class="authors">Kyung Myung Ko</div>
+                <div class="year">Preprint, 2024</div>
+                <div class="buttons">
+                    <a href="documents/AV_AG_preprint.pdf" target="_blank">PDF</a>
+                    <a href="https://github.com/andyko208/AVAG-AVQA" target="_blank">CODE</a>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- Security Section -->
-    <div class="research-category">
-        <h2>Security</h2>
-        <div class="past-research">
-            <h3>Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors</h3>
-            <div class="authors">Taylor R Schorlemmer, Kelechi G Kalu, Luke Chigges, Kyung Myung Ko, Eman Abdul-Muhd Abu Isghair, Saurabh Baghi, Santiago Torres-Arias, James C Davis</div>
-            <div class="year">IEEE S&P 2024</div>
-            <div class="buttons">
-                <a href="https://arxiv.org/pdf/2401.14635" target="_blank">PDF</a>
-                <a href="https://github.com/PurdueDualityLab/signature-adoption" target="_blank">CODE</a>
+        <!-- Security Category -->
+        <div class="research-category">
+            <h2>Security</h2>
+            <div class="past-research">
+                <h3>Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors</h3>
+                <div class="authors">Taylor R Schorlemmer, Kelechi G Kalu, Luke Chigges, Kyung Myung Ko, Eman Abdul-Muhd Abu Isghair, Saurabh Baghi, Santiago Torres-Arias, James C Davis</div>
+                <div class="year">IEEE S&P 2024</div>
+                <div class="buttons">
+                    <a href="https://arxiv.org/pdf/2401.14635" target="_blank">PDF</a>
+                    <a href="https://github.com/PurdueDualityLab/signature-adoption" target="_blank">CODE</a>
+                </div>
             </div>
         </div>
-        <!-- Add more security research papers here -->
     </div>
 </body>
 </html>
