@@ -3,15 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Documents</title>
+    <title>Your Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .profile-info h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .profile-info p {
+            margin: 5px 0;
+        }
+        .profile-links {
+            margin-top: 10px;
+        }
+        .profile-links a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #007acc;
+        }
+        .research-highlights h2 {
+            margin-top: 30px;
+        }
+        .research-highlights ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .research-highlights ul li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Page</h1>
-    <h2>Documents</h2>
-    <ul>
-        <li><a href="pdfs/resume.pdf" target="_blank">Resume</a></li>
-        <li><a href="pdfs/paper1.pdf" target="_blank">Preprint Paper 1</a></li>
-        <!-- Add more links as needed -->
-    </ul>
+    <div class="profile-header">
+        <img src="documents/Ko_KyungMyung_profile.jpeg" alt="Your Profile Picture" class="profile-image">
+        <div class="profile-info">
+            <h1>Kyung Myung(Andy) Ko</h1>
+            <p>ko112@purdue.edu</p>
+<!--             <p>Office: Your Office Information</p> -->
+<!--             <p>Position Title<br>Department<br>University/Organization</p> -->
+            <div class="profile-links">
+                <a href="https://scholar.google.com/citations?user=4nZmz10AAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> ·
+                <a href="https://github.com" target="_blank">GitHub</a> ·
+                <a href="https://www.linkedin.com/in/kyungmyungko/" target="_blank">LinkedIn</a> ·
+                <a href="documents/Ko_KyungMyung_resume.pdf" target="_blank">CV</a>
+            </div>
+        </div>
+    </div>
+
+    <p>I'm an undergraduate student in the Purdue University, majoring in Computer Science and Artificial Intelligence.</p>
+<!--     <p>I completed my PhD at [Link to Institution], where I was advised by [Advisor’s name]. I also did postdoctoral work at [Institution] with [Advisor’s name].</p> -->
+
+    <div class="research-highlights">
+        <h2>Research Interests</h2>
+        <ul>
+            <li><strong>Multimodal learning:</strong> Vision and audio are the primary sources of data that we continuosly perceive from the world. 
+                Our brain leverages these cues to reason about them. As such, our world could be explained as us humans experiencing immersive video.  
+                My research attempts to understand how these modalities are incorporated to create individual world within us. Ultimately, my goal is to
+                leverage them to construct a synthetic world. I am specifically interested in video understanding and video generation.
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
