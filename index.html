@@ -48,6 +48,54 @@
         .research-highlights ul li {
             margin-bottom: 10px;
         }
+        /* Past research work styling */
+        .research-category {
+            margin-top: 30px;
+        }
+        .research-category h2 {
+            margin-top: 20px;
+            color: #333;
+        }
+        .past-research {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        .past-research .badge {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        .past-research h3 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #fff;
+        }
+        .past-research .authors,
+        .past-research .year {
+            margin-top: 5px;
+            font-size: 0.9em;
+            color: #bbb;
+        }
+        .past-research .buttons {
+            margin-top: 10px;
+        }
+        .past-research .buttons a {
+            display: inline-block;
+            background-color: #fff;
+            color: #333;
+            padding: 5px 15px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            font-size: 0.9em;
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
@@ -55,21 +103,26 @@
         <img src="documents/Ko_KyungMyung_profile.jpeg" alt="Your Profile Picture" class="profile-image">
         <div class="profile-info">
             <h1>Kyung Myung(Andy) Ko</h1>
-            <p>ko112@purdue.edu</p>
+            <a href="mailto:ko112@purdue.edu" target="_blank">ko112@purdue.edu</a> ·
 <!--             <p>Office: Your Office Information</p> -->
 <!--             <p>Position Title<br>Department<br>University/Organization</p> -->
             <div class="profile-links">
                 <a href="https://scholar.google.com/citations?user=4nZmz10AAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> ·
-                <a href="https://github.com" target="_blank">GitHub</a> ·
+                <a href="https://github.com/andyko208" target="_blank">GitHub</a> ·
                 <a href="https://www.linkedin.com/in/kyungmyungko/" target="_blank">LinkedIn</a> ·
                 <a href="documents/Ko_KyungMyung_resume.pdf" target="_blank">CV</a>
             </div>
         </div>
     </div>
 
-    <p>I'm an undergraduate student in the Purdue University, majoring in Computer Science and Artificial Intelligence.</p>
-<!--     <p>I completed my PhD at [Link to Institution], where I was advised by [Advisor’s name]. I also did postdoctoral work at [Institution] with [Advisor’s name].</p> -->
-
+    <p>I'm an undergraduate student at Purdue University, majoring in Computer Science and Artificial Intelligence.
+        I come from diverse research background. I recently did my research internship at INAOE, Mexico through NSF IRES, working with <a href="https://ccc.inaoep.mx/~mmontesg/index.html" target="_blank"> Professor Manuel Montes-y-Gómez</a>
+        on multimodal & multilingual hate speech detection. Before that, I worked with <a href="https://davisjam.github.io">Professor James Davis</a> to analyze the qualities of signatures on open source registries. Even before that, I worked 
+        on developing multimodal EEG interface at <a href="https://tiilt.northwestern.edu" target="_blank">tiilt lab</a> as a research intern, working with <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/worsley-marcelo.html">Professor Marcelo Worsley</a>. 
+    </p>
+<!--     <p>I completed my PhD at [Link to Institution], where I was advised by [Advisor’s name]. I also did postdoctoral work at [Institution] with [Advisor’s name].</p> -->    
+    </div>
+    
     <div class="research-highlights">
         <h2>Research Interests</h2>
         <ul>
@@ -79,6 +132,33 @@
                 leverage them to construct a synthetic world. I am specifically interested in video understanding and video generation.
             </li>
         </ul>
+    </div>
+
+    <div class="research-category">
+        <h2>Multimodal Learning</h2>
+        <div class="past-research">
+            <h3>Audio Visual Agreement for Audio-Visual Question Answering</h3>
+            <div class="authors">Kyung Myung Ko</div>
+            <div class="year">Preprint, 2024</div>
+            <div class="buttons">
+                <a href="documents/AV_AG_preprint.pdf" target="_blank">PDF</a>
+                <a href="https://github.com/andyko208/AVAG-AVQA" target="_blank">CODE</a>
+            </div>
+        </div>
+    </div>
+    <!-- Security Section -->
+    <div class="research-category">
+        <h2>Security</h2>
+        <div class="past-research">
+            <h3>Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors</h3>
+            <div class="authors">Taylor R Schorlemmer, Kelechi G Kalu, Luke Chigges, Kyung Myung Ko, Eman Abdul-Muhd Abu Isghair, Saurabh Baghi, Santiago Torres-Arias, James C Davis</div>
+            <div class="year">IEEE S&P 2024</div>
+            <div class="buttons">
+                <a href="https://arxiv.org/pdf/2401.14635" target="_blank">PDF</a>
+                <a href="https://github.com/PurdueDualityLab/signature-adoption" target="_blank">CODE</a>
+            </div>
+        </div>
+        <!-- Add more security research papers here -->
     </div>
 </body>
 </html>
